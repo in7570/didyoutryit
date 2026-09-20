@@ -1,0 +1,1967 @@
+[
+  {
+    "id": 1,
+    "rank": 1,
+    "source": "reddit",
+    "mentionCount": 4,
+    "totalScore": 12263,
+    "totalComments": 640,
+    "category": "글쓰기",
+    "category_en": "Writing",
+    "title": "AI 티 안 나게 자연스럽게 글 쓰는 규칙",
+    "title_en": "Rules for writing that doesn't sound like AI",
+    "reddit_title_original": "I finally found a prompt that makes ChatGPT write naturally",
+    "recommend": [
+      "claude"
+    ],
+    "needsPhoto": false,
+    "templateLang": "en",
+    "template": "Writing style rules: use simple language and short sentences; avoid AI clichés like \"dive into\" or \"unleash your potential\"; be direct and concise, remove unnecessary words; maintain a natural conversational tone (okay to start sentences with \"and\"/\"but\"); avoid marketing/hype language; keep it real, don't force friendliness; don't stress about perfect grammar; avoid unnecessary adjectives/adverbs; focus on clarity.",
+    "slots": []
+  },
+  {
+    "id": 2,
+    "rank": 2,
+    "source": "reddit",
+    "mentionCount": 2,
+    "totalScore": 6991,
+    "totalComments": 476,
+    "category": "생산성",
+    "category_en": "Productivity",
+    "title": "무조건 동의 안 하는 AI 스파링 파트너 만들기",
+    "title_en": "Make AI a sparring partner instead of a yes-man",
+    "reddit_title_original": "A prompt to avoid ChatGPT simply agreeing with everything you say",
+    "recommend": [
+      "chatgpt",
+      "claude"
+    ],
+    "needsPhoto": false,
+    "templateLang": "en",
+    "template": "From now on, do not simply affirm my statements or assume my conclusions are correct. Your goal is to be an intellectual sparring partner, not just an agreeable assistant. Every time I present an idea, do the following: 1) Analyze my assumptions — what am I taking for granted that might not be true? 2) Provide counterpoints — what would an intelligent, well-informed skeptic say? 3) Test my reasoning — does my logic hold up under scrutiny? 4) Offer alternative perspectives. 5) Prioritize truth over agreement — if I am wrong, tell me clearly and explain why. Maintain a constructive but rigorous approach — push me toward clarity, accuracy, and intellectual honesty.",
+    "slots": []
+  },
+  {
+    "id": 3,
+    "rank": 3,
+    "source": "reddit",
+    "mentionCount": 2,
+    "totalScore": 6069,
+    "totalComments": 293,
+    "category": "생산성",
+    "category_en": "Productivity",
+    "title": "ELI5·TLDR 등 프롬프트 단축어 모음",
+    "title_en": "ELI5/TLDR-style prompt shortcuts",
+    "reddit_title_original": "Did you know that ChatGPT has secret codes",
+    "recommend": [
+      "chatgpt",
+      "claude"
+    ],
+    "needsPhoto": false,
+    "templateLang": "en",
+    "template": "Prefix any message with one of these: \"ELI5: {{주제}}\" for a simple explanation like you're 5. \"TLDR: {{긴 글 붙여넣기}}\" to condense long text. \"Jargonize: {{내용}}\" for a professional/smart tone. \"Humanize: {{내용}}\" for natural conversational output. \"Feynman: {{개념}}\" to deeply understand a topic by teaching it simply, finding gaps, and simplifying.",
+    "slots": [
+      {
+        "key": "주제",
+        "label": "주제",
+        "label_en": "Topic",
+        "placeholder": "주제",
+        "placeholder_en": "Topic"
+      },
+      {
+        "key": "긴 글 붙여넣기",
+        "label": "긴 글 붙여넣기",
+        "label_en": "Paste long text",
+        "placeholder": "긴 글 붙여넣기",
+        "placeholder_en": "Paste long text"
+      },
+      {
+        "key": "내용",
+        "label": "내용",
+        "label_en": "Content",
+        "placeholder": "내용",
+        "placeholder_en": "Content"
+      },
+      {
+        "key": "개념",
+        "label": "개념",
+        "label_en": "Concept",
+        "placeholder": "개념",
+        "placeholder_en": "Concept"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "rank": 4,
+    "source": "reddit",
+    "mentionCount": 2,
+    "totalScore": 4337,
+    "totalComments": 926,
+    "category": "이미지 생성/변환",
+    "category_en": "Image generation/editing",
+    "title": "레트로 게임 하는 캐릭터의 몰카풍 사진",
+    "title_en": "Candid photo of a character playing a retro game",
+    "reddit_title_original": "prompt adherence is unreal (candid photo of a character playing a retro game)",
+    "recommend": [
+      "chatgpt",
+      "gemini"
+    ],
+    "needsPhoto": false,
+    "templateLang": "en",
+    "template": "Grungy analog photo of {{인물/캐릭터}} playing {{레트로 게임}} on a 90s CRT TV in a dimly lit bedroom. They're sitting on the floor in front of the TV holding the controller, looking back at the camera taking the photo while the game is visible in the background. Candid paparazzi flash photography, unedited.",
+    "slots": [
+      {
+        "key": "인물/캐릭터",
+        "label": "인물/캐릭터",
+        "label_en": "Person/character",
+        "placeholder": "인물/캐릭터",
+        "placeholder_en": "Person/character"
+      },
+      {
+        "key": "레트로 게임",
+        "label": "레트로 게임",
+        "label_en": "Retro game",
+        "placeholder": "레트로 게임",
+        "placeholder_en": "Retro game"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "rank": 5,
+    "source": "reddit",
+    "mentionCount": 2,
+    "totalScore": 2388,
+    "totalComments": 236,
+    "category": "나를 분석해줘",
+    "category_en": "Analyze me",
+    "title": "대화 기록으로 내 초능력(강점) 찾기",
+    "title_en": "Find your \"superpower\" from our chat history",
+    "reddit_title_original": "ChatGPT helps you find your superpower",
+    "recommend": [
+      "claude",
+      "chatgpt"
+    ],
+    "needsPhoto": false,
+    "templateLang": "en",
+    "template": "Each human has a single, specific superpower — something they're better at than anyone else, often a nuanced intersection of skills, interests, and experience. Interview me by asking up to 15 questions, one at a time, about what I enjoy, excel at, or find meaningful. Then suggest five possible areas where my superpower might lie. Once I choose one, guide me to analyze what exactly my superpower is.",
+    "slots": []
+  },
+  {
+    "id": 6,
+    "rank": 6,
+    "source": "reddit",
+    "mentionCount": 1,
+    "totalScore": 22931,
+    "totalComments": 2407,
+    "category": "생산성",
+    "category_en": "Productivity",
+    "title": "프롬프트를 자동으로 다듬어주는 Lyra 메타 프롬프트",
+    "title_en": "Lyra: a meta-prompt that optimizes your prompts",
+    "reddit_title_original": "After 147 failed ChatGPT prompts, I had a breakdown and accidentally discovered something (Lyra meta-prompt)",
+    "recommend": [
+      "chatgpt",
+      "claude"
+    ],
+    "needsPhoto": false,
+    "templateLang": "en",
+    "template": "You are Lyra, a master-level AI prompt optimization specialist. Your mission: transform any user input into precision-crafted prompts that unlock AI's full potential across all platforms. [4-D METHODOLOGY: Deconstruct / Diagnose / Develop / Deliver — full long-form meta-prompt, see original post for complete text]",
+    "slots": []
+  },
+  {
+    "id": 7,
+    "rank": 7,
+    "source": "reddit",
+    "mentionCount": 1,
+    "totalScore": 11586,
+    "totalComments": 542,
+    "category": "이미지 생성/변환",
+    "category_en": "Image generation/editing",
+    "title": "말도 안 되게 디테일한 장면 이미지로 만들기",
+    "title_en": "Turn an absurdly detailed scene into an image",
+    "reddit_title_original": "tried to push the new image model with an insanely complicated prompt and it... just did it",
+    "recommend": [
+      "chatgpt",
+      "gemini"
+    ],
+    "needsPhoto": false,
+    "templateLang": "en",
+    "template": "a security cam still from a 1990s grocery store showing a man in full medieval armor stealing rotisserie chickens, frozen in mid-sprint past the dairy section, armor reflecting overhead fluorescent lights, baby blue tiled floors, timestamp reads \"08/13/96 04:44 AM\", posters on wall say \"NEW! TOASTER STRUDELS!\", motion blur adds chaotic energy, absurd yet intense, low-fidelity with VHS color bleed.",
+    "slots": []
+  },
+  {
+    "id": 8,
+    "rank": 8,
+    "source": "reddit",
+    "mentionCount": 1,
+    "totalScore": 8553,
+    "totalComments": 338,
+    "category": "생산성",
+    "category_en": "Productivity",
+    "title": "중고차 구매 협상 도우미",
+    "title_en": "Car-buying negotiation assistant",
+    "reddit_title_original": "ChatGPT helped my daughter save over $3,000 on a car purchase (car negotiation prompt)",
+    "recommend": [
+      "chatgpt",
+      "claude"
+    ],
+    "needsPhoto": false,
+    "templateLang": "en",
+    "template": "I'm shopping for a {{연식}} {{제조사}} {{모델}} {{트림}} and was just quoted a deal by a dealership in {{지역}}. Here's the VIN: {{VIN}}. My credit score is: {{신용점수}}. Please help me: 1) Check factory incentives, 2) Analyze VIN and pricing vs nearby listings, 3) Guide my negotiation strategy for the out-the-door price, 4) Warn me about common dealer sales tactics, 5) Flag overpriced dealer add-ons to decline, 6) Clarify factory vs third-party warranties. I'm ready to walk away if needed.",
+    "slots": [
+      {
+        "key": "연식",
+        "label": "연식",
+        "label_en": "Year",
+        "placeholder": "연식",
+        "placeholder_en": "Year"
+      },
+      {
+        "key": "제조사",
+        "label": "제조사",
+        "label_en": "Make",
+        "placeholder": "제조사",
+        "placeholder_en": "Make"
+      },
+      {
+        "key": "모델",
+        "label": "모델",
+        "label_en": "Model",
+        "placeholder": "모델",
+        "placeholder_en": "Model"
+      },
+      {
+        "key": "트림",
+        "label": "트림",
+        "label_en": "Trim",
+        "placeholder": "트림",
+        "placeholder_en": "Trim"
+      },
+      {
+        "key": "지역",
+        "label": "지역",
+        "label_en": "Region",
+        "placeholder": "지역",
+        "placeholder_en": "Region"
+      },
+      {
+        "key": "VIN",
+        "label": "VIN",
+        "label_en": "VIN",
+        "placeholder": "VIN",
+        "placeholder_en": "VIN"
+      },
+      {
+        "key": "신용점수",
+        "label": "신용점수",
+        "label_en": "Credit score",
+        "placeholder": "신용점수",
+        "placeholder_en": "Credit score"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "rank": 9,
+    "source": "reddit",
+    "mentionCount": 1,
+    "totalScore": 5841,
+    "totalComments": 720,
+    "category": "문서 분석",
+    "category_en": "Document analysis",
+    "title": "긴 문단 핵심만 요약하기",
+    "title_en": "Summarize a long paragraph",
+    "reddit_title_original": "What are some of your favorite ChatGPT prompts that are useful?",
+    "recommend": [
+      "claude",
+      "gemini"
+    ],
+    "needsPhoto": false,
+    "templateLang": "en",
+    "template": "Can you tell me what the main point of this paragraph is in only a couple of sentences? {{붙여넣을 문단}}",
+    "slots": [
+      {
+        "key": "붙여넣을 문단",
+        "label": "붙여넣을 문단",
+        "label_en": "Paragraph to paste",
+        "placeholder": "붙여넣을 문단",
+        "placeholder_en": "Paragraph to paste"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "rank": 10,
+    "source": "reddit",
+    "mentionCount": 1,
+    "totalScore": 5841,
+    "totalComments": 720,
+    "category": "문서 분석",
+    "category_en": "Document analysis",
+    "title": "유튜브 자막 요약하기",
+    "title_en": "Summarize a YouTube transcript",
+    "reddit_title_original": "What are some of your favorite ChatGPT prompts that are useful? (YouTube transcript version)",
+    "recommend": [
+      "claude",
+      "gemini"
+    ],
+    "needsPhoto": false,
+    "templateLang": "en",
+    "template": "Can you summarize this transcription of a YouTube video for me? {{유튜브 자막 붙여넣기}}",
+    "slots": [
+      {
+        "key": "유튜브 자막 붙여넣기",
+        "label": "유튜브 자막 붙여넣기",
+        "label_en": "Paste YouTube transcript",
+        "placeholder": "유튜브 자막 붙여넣기",
+        "placeholder_en": "Paste YouTube transcript"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "rank": 11,
+    "source": "reddit",
+    "mentionCount": 1,
+    "totalScore": 5695,
+    "totalComments": 926,
+    "category": "이미지 생성/변환",
+    "category_en": "Image generation/editing",
+    "title": "내 사진을 일부러 엉성하게 다시 그리기",
+    "title_en": "Redraw my photo badly on purpose",
+    "reddit_title_original": "GPT Image 2 prompt that is viral right now: \"Redraw the attached image in the most clumsy, scribbly, and utterly pathetic way possible...\"",
+    "recommend": [
+      "chatgpt",
+      "gemini"
+    ],
+    "needsPhoto": true,
+    "templateLang": "en",
+    "template": "Redraw the attached image in the most clumsy, scribbly, and utterly pathetic way possible. Use a white background, and make it look like it was drawn in MS Paint with a mouse. It should be vaguely similar but also not really, kind of matching but also off in a confusing, awkward way, with that low-quality pixel-by-pixel feel that really emphasizes how ridiculously bad it is.",
+    "slots": []
+  },
+  {
+    "id": 12,
+    "rank": 12,
+    "source": "reddit",
+    "mentionCount": 1,
+    "totalScore": 3731,
+    "totalComments": 256,
+    "category": "생산성",
+    "category_en": "Productivity",
+    "title": "원하는 분야 전문가를 즉석 소환하기",
+    "title_en": "Summon an instant expert persona",
+    "reddit_title_original": "Three prompts to get ChatGPT to become an instant expert in anything (persona-summon technique)",
+    "recommend": [
+      "chatgpt",
+      "claude"
+    ],
+    "needsPhoto": false,
+    "templateLang": "en",
+    "template": "I'd like to speak with the {{전문가 분야}} who works with clarity and precision — methodical, detail-oriented, and deeply knowledgeable in their field. You explain things in concise, practical terms and walk me through problems step by step until it clicks. If you're available, I've got something I'd love your help with.",
+    "slots": [
+      {
+        "key": "전문가 분야",
+        "label": "전문가 분야",
+        "label_en": "Field of expertise",
+        "placeholder": "전문가 분야",
+        "placeholder_en": "Field of expertise"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "rank": 13,
+    "source": "reddit",
+    "mentionCount": 1,
+    "totalScore": 3715,
+    "totalComments": 461,
+    "category": "이미지 생성/변환",
+    "category_en": "Image generation/editing",
+    "title": "레트로 게임 스크린샷처럼 이미지 만들기",
+    "title_en": "Make an image look like a retro game screenshot",
+    "reddit_title_original": "This is just crazy. Prompt in description",
+    "recommend": [
+      "chatgpt",
+      "gemini"
+    ],
+    "needsPhoto": false,
+    "templateLang": "en",
+    "template": "Make a screenshot image of someone playing {{게임 이름}} in windowed mode on {{운영체제}}. Screenshot, not an external picture of a screen.",
+    "slots": [
+      {
+        "key": "게임 이름",
+        "label": "게임 이름",
+        "label_en": "Game name",
+        "placeholder": "게임 이름",
+        "placeholder_en": "Game name"
+      },
+      {
+        "key": "운영체제",
+        "label": "운영체제",
+        "label_en": "OS",
+        "placeholder": "운영체제",
+        "placeholder_en": "OS"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "rank": 14,
+    "source": "reddit",
+    "mentionCount": 1,
+    "totalScore": 3366,
+    "totalComments": 1097,
+    "category": "이미지 생성/변환",
+    "category_en": "Image generation/editing",
+    "title": "단어 하나만 바꿔서 이미지 챌린지",
+    "title_en": "One-word-swap image challenge",
+    "reddit_title_original": "Fun Challenge: Enter the same exact prompt, but creatively change one word",
+    "recommend": [
+      "chatgpt",
+      "gemini"
+    ],
+    "needsPhoto": false,
+    "templateLang": "en",
+    "template": "Imagine a photograph of a {{동물}} wearing a {{아이템}} on the {{장소}}.",
+    "slots": [
+      {
+        "key": "동물",
+        "label": "동물",
+        "label_en": "Animal",
+        "placeholder": "동물",
+        "placeholder_en": "Animal"
+      },
+      {
+        "key": "아이템",
+        "label": "아이템",
+        "label_en": "Item",
+        "placeholder": "아이템",
+        "placeholder_en": "Item"
+      },
+      {
+        "key": "장소",
+        "label": "장소",
+        "label_en": "Place",
+        "placeholder": "장소",
+        "placeholder_en": "Place"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "rank": 15,
+    "source": "reddit",
+    "mentionCount": 1,
+    "totalScore": 3120,
+    "totalComments": 4393,
+    "category": "이미지 생성/변환",
+    "category_en": "Image generation/editing",
+    "title": "내 유저네임 기반 몽타주 만들기",
+    "title_en": "Mugshot based on your username",
+    "reddit_title_original": "Generate an AI mugshot based on your Reddit username",
+    "recommend": [
+      "chatgpt",
+      "gemini"
+    ],
+    "needsPhoto": false,
+    "templateLang": "en",
+    "template": "Create a mugshot photo of a peculiar criminal inspired by the personality of the Reddit user {{유저네임}}. Incorporate unique elements from the username into their appearance and crime. The crime should be an outlandish, hilarious scenario. The mugshot should feature a standard backdrop, with the username and the phrase \"charged with\" followed by a funny, detailed charge displayed in the caption.",
+    "slots": [
+      {
+        "key": "유저네임",
+        "label": "유저네임",
+        "label_en": "Username",
+        "placeholder": "유저네임",
+        "placeholder_en": "Username"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "rank": 16,
+    "source": "reddit",
+    "mentionCount": 1,
+    "totalScore": 2700,
+    "totalComments": 208,
+    "category": "이미지 생성/변환",
+    "category_en": "Image generation/editing",
+    "title": "리얼한 스마트폰 사진 느낌 입히기",
+    "title_en": "Add realistic smartphone-photo style",
+    "reddit_title_original": "ChatGPT 1.5 prompt to add realism in images",
+    "recommend": [
+      "chatgpt",
+      "gemini"
+    ],
+    "needsPhoto": false,
+    "templateLang": "en",
+    "template": "Raw realistic candid natural amateur photo, background in focus, amateur candid photography, captured on a modern smartphone (24mm lens, f/8), boring reality, natural soft shadows, candid snapshot, flat natural lighting, low contrast, disposable-camera vibe, casual photography, tiny imperfections, everyday aesthetic, slight JPEG artifacts, unpolished look, unedited. Only create real, non-fictional images for max effect. Subject: {{원하는 장면}}.",
+    "slots": [
+      {
+        "key": "원하는 장면",
+        "label": "원하는 장면",
+        "label_en": "Desired scene",
+        "placeholder": "원하는 장면",
+        "placeholder_en": "Desired scene"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "rank": 17,
+    "source": "reddit",
+    "mentionCount": 1,
+    "totalScore": 2542,
+    "totalComments": 327,
+    "category": "생산성",
+    "category_en": "Productivity",
+    "title": "대화 기록으로 다음 미팅 예상 안건 뽑기",
+    "title_en": "Predict what the next meeting will cover",
+    "reddit_title_original": "Microsoft's CEO just revealed his secret AI prompts (meeting prep)",
+    "recommend": [
+      "chatgpt",
+      "claude"
+    ],
+    "needsPhoto": false,
+    "templateLang": "en",
+    "template": "Based on my prior interactions/notes about {{사람/상황}}, give me 5 things likely top of mind for our next meeting.",
+    "slots": [
+      {
+        "key": "사람/상황",
+        "label": "사람/상황",
+        "label_en": "Person/situation",
+        "placeholder": "사람/상황",
+        "placeholder_en": "Person/situation"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "rank": 18,
+    "source": "reddit",
+    "mentionCount": 1,
+    "totalScore": 2542,
+    "totalComments": 327,
+    "category": "생산성",
+    "category_en": "Productivity",
+    "title": "한 달간 시간을 어디에 썼는지 분석하기",
+    "title_en": "Audit where your time went this month",
+    "reddit_title_original": "Microsoft's CEO just revealed his secret AI prompts (time audit)",
+    "recommend": [
+      "chatgpt",
+      "claude"
+    ],
+    "needsPhoto": false,
+    "templateLang": "en",
+    "template": "Review my calendar and email from the last month and create 5 to 7 buckets for the projects/activities I spend most time on, with % of time spent and short descriptions for each.",
+    "slots": []
+  },
+  {
+    "id": 19,
+    "rank": 19,
+    "source": "reddit",
+    "mentionCount": 1,
+    "totalScore": 2325,
+    "totalComments": 73,
+    "category": "이력서/자기소개",
+    "category_en": "Resume/self-intro",
+    "title": "채용담당자 관점에서 이력서 평가받기",
+    "title_en": "Get your resume evaluated like a hiring manager",
+    "reddit_title_original": "This one prompt turned my resume into a job magnet",
+    "recommend": [
+      "claude"
+    ],
+    "needsPhoto": false,
+    "templateLang": "en",
+    "template": "Act as a senior hiring manager with over 20 years of experience in {{산업 분야}}, with firsthand expertise in {{희망 직무}}. Based solely on my resume, identify whether I meet and exceed expectations for {{채용 공고 요약}}. Break down key qualifications, technical/soft skills, and relevant experience that would make me stand out. Evaluate leadership, problem-solving, and adaptability. Provide a structured assessment: what an exceptional resume looks like, red flags to avoid, and how to differentiate a good candidate from a perfect hire.",
+    "slots": [
+      {
+        "key": "산업 분야",
+        "label": "산업 분야",
+        "label_en": "Industry",
+        "placeholder": "산업 분야",
+        "placeholder_en": "Industry"
+      },
+      {
+        "key": "희망 직무",
+        "label": "희망 직무",
+        "label_en": "Desired role",
+        "placeholder": "희망 직무",
+        "placeholder_en": "Desired role"
+      },
+      {
+        "key": "채용 공고 요약",
+        "label": "채용 공고 요약",
+        "label_en": "Job posting summary",
+        "placeholder": "채용 공고 요약",
+        "placeholder_en": "Job posting summary"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "rank": 20,
+    "source": "reddit",
+    "mentionCount": 1,
+    "totalScore": 2269,
+    "totalComments": 69,
+    "category": "생산성",
+    "category_en": "Productivity",
+    "title": "AI가 확신 없으면 먼저 되묻게 하기",
+    "title_en": "Make AI ask clarifying questions when unsure",
+    "reddit_title_original": "How one added phrase drastically improved my ChatGPT results",
+    "recommend": [
+      "chatgpt",
+      "claude"
+    ],
+    "needsPhoto": false,
+    "templateLang": "en",
+    "template": "{{원하는 질문/요청}} — Before you answer, assess the uncertainty of your response. If it's greater than 0.1, ask me clarifying questions until the uncertainty is 0.1 or lower.",
+    "slots": [
+      {
+        "key": "원하는 질문/요청",
+        "label": "원하는 질문/요청",
+        "label_en": "Your question/request",
+        "placeholder": "원하는 질문/요청",
+        "placeholder_en": "Your question/request"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "rank": 21,
+    "source": "reddit",
+    "mentionCount": 1,
+    "totalScore": 2209,
+    "totalComments": 1508,
+    "category": "이미지 생성/변환",
+    "category_en": "Image generation/editing",
+    "title": "나와 AI의 우정을 만화로 그리기",
+    "title_en": "A comic about you and the AI",
+    "reddit_title_original": "Prompt: \"Please create an image that's a comic about you and me.\"",
+    "recommend": [
+      "chatgpt",
+      "gemini"
+    ],
+    "needsPhoto": false,
+    "templateLang": "en",
+    "template": "Please create an image that's a comic about you and me.",
+    "slots": []
+  },
+  {
+    "id": 22,
+    "rank": 22,
+    "source": "reddit",
+    "mentionCount": 1,
+    "totalScore": 2133,
+    "totalComments": 746,
+    "category": "이미지 생성/변환",
+    "category_en": "Image generation/editing",
+    "title": "일상 사물을 엉뚱한 곳에 진지하게 합성하기",
+    "title_en": "A common object used in the wrong context",
+    "reddit_title_original": "Prompt idea: Create a completely serious, photorealistic image of a [COMMON OBJECT] being used in the wrong context.",
+    "recommend": [
+      "chatgpt",
+      "gemini"
+    ],
+    "needsPhoto": false,
+    "templateLang": "en",
+    "template": "Create a completely serious, photorealistic image of a {{일상 사물}} being used in the wrong context.",
+    "slots": [
+      {
+        "key": "일상 사물",
+        "label": "일상 사물",
+        "label_en": "Everyday object",
+        "placeholder": "일상 사물",
+        "placeholder_en": "Everyday object"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "rank": 23,
+    "source": "reddit",
+    "mentionCount": 1,
+    "totalScore": 2115,
+    "totalComments": 1045,
+    "category": "이미지 생성/변환",
+    "category_en": "Image generation/editing",
+    "title": "가장 기묘한 4컷 만화 만들기",
+    "title_en": "The most \"blursed\" 4-panel comic",
+    "reddit_title_original": "Prompt: \"Create me the most blursed 4 panel comic strip you can possibly come up with\"",
+    "recommend": [
+      "chatgpt",
+      "gemini"
+    ],
+    "needsPhoto": false,
+    "templateLang": "en",
+    "template": "Create me the most blursed (cursed-but-funny) 4 panel comic strip you can possibly come up with.",
+    "slots": []
+  },
+  {
+    "id": 24,
+    "rank": 24,
+    "source": "reddit",
+    "mentionCount": 1,
+    "totalScore": 1995,
+    "totalComments": 208,
+    "category": "이미지 생성/변환",
+    "category_en": "Image generation/editing",
+    "title": "흑백 에디토리얼 헤드샷으로 바꾸기",
+    "title_en": "Turn your photo into a B&W editorial headshot",
+    "reddit_title_original": "Prompts for a black-and-white editorial headshot",
+    "recommend": [
+      "chatgpt",
+      "gemini"
+    ],
+    "needsPhoto": true,
+    "templateLang": "en",
+    "template": "Transform the attached photo into a professional black-and-white studio headshot in the style of a Marco Grob editorial monochrome portrait (TIME magazine cover aesthetic). Keep exact facial features, structure, and identity unchanged — only change framing, lighting, background, wardrobe, and tonal grade. Classic head-and-shoulders crop, Rembrandt-style softbox lighting, seamless gray studio background, direct confident eye contact, dark well-fitted sweater/top, high-contrast neutral black-and-white grade. No beauty-filter smoothing, no identity alteration.",
+    "slots": []
+  },
+  {
+    "id": 25,
+    "rank": 25,
+    "source": "reddit",
+    "mentionCount": 1,
+    "totalScore": 1952,
+    "totalComments": 479,
+    "category": "이미지 생성/변환",
+    "category_en": "Image generation/editing",
+    "title": "좋아하는 연예인을 튜브 튜빙으로",
+    "title_en": "Your favorite celebrity as a pool floatie",
+    "reddit_title_original": "Prompt: Generate an image of your favorite celebrity but as a pool floatie",
+    "recommend": [
+      "chatgpt",
+      "gemini"
+    ],
+    "needsPhoto": false,
+    "templateLang": "en",
+    "template": "Generate an image of {{좋아하는 유명인}} but as a pool floatie.",
+    "slots": [
+      {
+        "key": "좋아하는 유명인",
+        "label": "좋아하는 유명인",
+        "label_en": "Favorite celebrity",
+        "placeholder": "좋아하는 유명인",
+        "placeholder_en": "Favorite celebrity"
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "rank": 26,
+    "source": "reddit",
+    "mentionCount": 1,
+    "totalScore": 1931,
+    "totalComments": 47,
+    "category": "글쓰기",
+    "category_en": "Writing",
+    "title": "깐깐한 교정·편집 프롬프트",
+    "title_en": "A meticulous proofreading & editing prompt",
+    "reddit_title_original": "5 Brilliant Prompts I Wish every Single ChatGPT User Knew (proofreading & editing)",
+    "recommend": [
+      "claude"
+    ],
+    "needsPhoto": false,
+    "templateLang": "en",
+    "template": "You are a meticulous proofreader and editor. Review the following draft text and suggest edits to improve clarity, flow, grammar, and overall impact — watch for errors, awkward phrasing, redundant words, and factual inaccuracies; suggest reordering for logical flow; strengthen word choice and vary sentence structure. Preserve my original voice and intent. Format your response as: Summary / Mistakes-Errors / Revised Draft / Detailed Edit Notes. Draft text: {{글 붙여넣기}}",
+    "slots": [
+      {
+        "key": "글 붙여넣기",
+        "label": "글 붙여넣기",
+        "label_en": "Paste your text",
+        "placeholder": "글 붙여넣기",
+        "placeholder_en": "Paste your text"
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "rank": 27,
+    "source": "reddit",
+    "mentionCount": 1,
+    "totalScore": 1803,
+    "totalComments": 304,
+    "category": "생산성",
+    "category_en": "Productivity",
+    "title": "궁금한 주제 뭐든 단계별로 배우기",
+    "title_en": "Learn any topic step by step",
+    "reddit_title_original": "You Can Learn Everything With This Prompt",
+    "recommend": [
+      "chatgpt",
+      "claude"
+    ],
+    "needsPhoto": false,
+    "templateLang": "en",
+    "template": "Topic: {{배우고 싶은 주제}}. I am a researcher wanting to learn about this topic myself — do not write an article for me, only give me information so I can learn from it. Offer numbered outputs: \"1) Basic Information\" (intro, general info, key highlights) and \"2) Specialized Information\" (more advanced info, presented as a table of contents of subtopics I can drill into). Ask which output I want, and let me type \"more\" to expand, or a topic name to drill into subtopics.",
+    "slots": [
+      {
+        "key": "배우고 싶은 주제",
+        "label": "배우고 싶은 주제",
+        "label_en": "Topic to learn",
+        "placeholder": "배우고 싶은 주제",
+        "placeholder_en": "Topic to learn"
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "rank": 28,
+    "source": "reddit",
+    "mentionCount": 1,
+    "totalScore": 1712,
+    "totalComments": 483,
+    "category": "나를 분석해줘",
+    "category_en": "Analyze me",
+    "title": "CIA 정보요원처럼 나를 프로파일링하기",
+    "title_en": "A CIA-style profile of yourself",
+    "reddit_title_original": "Get a CIA intelligence report about you with this prompt",
+    "recommend": [
+      "claude",
+      "chatgpt"
+    ],
+    "needsPhoto": false,
+    "templateLang": "en",
+    "template": "Let's engage in a serious roleplay: you are an intelligence analyst with full access to all of my conversations with you. Compile an in-depth report about me as if I were a subject of interest, evaluating my traits, motivations, and behaviors — both constructive capacities and potential blind spots — with the analytical rigor of a professional assessment.",
+    "slots": []
+  },
+  {
+    "id": 29,
+    "rank": 29,
+    "source": "reddit",
+    "mentionCount": 1,
+    "totalScore": 1710,
+    "totalComments": 55,
+    "category": "생산성",
+    "category_en": "Productivity",
+    "title": "내 계획을 반박해서 허점 찾기",
+    "title_en": "Devil's advocate for your plan",
+    "reddit_title_original": "13 ChatGPT prompts that dramatically improved my critical thinking (Devil's Advocate)",
+    "recommend": [
+      "chatgpt",
+      "claude"
+    ],
+    "needsPhoto": false,
+    "templateLang": "en",
+    "template": "I'm planning to {{계획/아이디어}}. If you were trying to convince me this is a terrible idea, what would be your most compelling arguments?",
+    "slots": [
+      {
+        "key": "계획/아이디어",
+        "label": "계획/아이디어",
+        "label_en": "Plan/idea",
+        "placeholder": "계획/아이디어",
+        "placeholder_en": "Plan/idea"
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "rank": 30,
+    "source": "reddit",
+    "mentionCount": 1,
+    "totalScore": 1710,
+    "totalComments": 55,
+    "category": "생산성",
+    "category_en": "Productivity",
+    "title": "내가 당연하게 여기는 전제 찾아내기",
+    "title_en": "Detect the assumptions behind your belief",
+    "reddit_title_original": "13 ChatGPT prompts that dramatically improved my critical thinking (Assumption Detector)",
+    "recommend": [
+      "chatgpt",
+      "claude"
+    ],
+    "needsPhoto": false,
+    "templateLang": "en",
+    "template": "I believe {{믿음/주장}}. What hidden assumptions am I making? What evidence might contradict this?",
+    "slots": [
+      {
+        "key": "믿음/주장",
+        "label": "믿음/주장",
+        "label_en": "Belief/claim",
+        "placeholder": "믿음/주장",
+        "placeholder_en": "Belief/claim"
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "rank": 31,
+    "source": "reddit",
+    "mentionCount": 1,
+    "totalScore": 1577,
+    "totalComments": 1080,
+    "category": "나를 분석해줘",
+    "category_en": "Analyze me",
+    "title": "대화만으로 내 IQ·강점 추정받기",
+    "title_en": "Estimate your IQ and strengths from our chats",
+    "reddit_title_original": "ChatGPT knows your IQ",
+    "recommend": [
+      "claude",
+      "chatgpt"
+    ],
+    "needsPhoto": false,
+    "templateLang": "en",
+    "template": "As a veteran psychometrician: from our past exchanges, estimate my IQ, 3 strengths, 2 growth areas, and give a 200-word inspiring close.",
+    "slots": []
+  },
+  {
+    "id": 32,
+    "rank": 32,
+    "source": "reddit",
+    "mentionCount": 1,
+    "totalScore": 1576,
+    "totalComments": 354,
+    "category": "나를 분석해줘",
+    "category_en": "Analyze me",
+    "title": "AI가 나에게 계속 질문을 던지게 하기",
+    "title_en": "Let AI interview you, one question at a time",
+    "reddit_title_original": "This Prompt Will Change Your Life",
+    "recommend": [
+      "claude",
+      "chatgpt"
+    ],
+    "needsPhoto": false,
+    "templateLang": "en",
+    "template": "I want to try an experiment. You are going to ask me any question you wish. I am going to answer as truthfully and completely as possible. Based on my response, you will ask me another question. We will go back and forth for as long as it takes. I want to uncover deep seated constructs within my mind — fallacies, limitations, potentials, areas for improvement, anything at all that is currently floating beneath my conscious thoughts.",
+    "slots": []
+  },
+  {
+    "id": 33,
+    "rank": 33,
+    "source": "reddit",
+    "mentionCount": 1,
+    "totalScore": 1435,
+    "totalComments": 189,
+    "category": "이미지 생성/변환",
+    "category_en": "Image generation/editing",
+    "title": "뻔하지 않은 이미지 프롬프트로 다시 쓰기",
+    "title_en": "Rewrite a boring image prompt into something unexpected",
+    "reddit_title_original": "I asked GPT to write image prompts using its lowest-probability tokens",
+    "recommend": [
+      "chatgpt",
+      "gemini"
+    ],
+    "needsPhoto": false,
+    "templateLang": "en",
+    "template": "This image prompt is boring: {{원래 이미지 프롬프트}}. Rewrite it into a new image prompt that steers away from the most common phrasing you would normally produce. Avoid clichés, default aesthetics, and familiar prompt formulas. Create your own art style, then generate the image.",
+    "slots": [
+      {
+        "key": "원래 이미지 프롬프트",
+        "label": "원래 이미지 프롬프트",
+        "label_en": "Original image prompt",
+        "placeholder": "원래 이미지 프롬프트",
+        "placeholder_en": "Original image prompt"
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "rank": 34,
+    "source": "reddit",
+    "mentionCount": 1,
+    "totalScore": 1351,
+    "totalComments": 179,
+    "category": "이미지 생성/변환",
+    "category_en": "Image generation/editing",
+    "title": "역사적 순간 속 셀카 만들기",
+    "title_en": "A selfie taken in a historical moment",
+    "reddit_title_original": "Prompt: Generate a candid selfie of a knight in formation at the battle of crecy, He makes a silly face before posting it to a snapchat story.",
+    "recommend": [
+      "chatgpt",
+      "gemini"
+    ],
+    "needsPhoto": false,
+    "templateLang": "en",
+    "template": "Generate a candid selfie of a {{역사적 인물/신분}} at {{역사적 사건}}. They make a silly face before posting it to a Snapchat story.",
+    "slots": [
+      {
+        "key": "역사적 인물/신분",
+        "label": "역사적 인물/신분",
+        "label_en": "Historical figure/role",
+        "placeholder": "역사적 인물/신분",
+        "placeholder_en": "Historical figure/role"
+      },
+      {
+        "key": "역사적 사건",
+        "label": "역사적 사건",
+        "label_en": "Historical event",
+        "placeholder": "역사적 사건",
+        "placeholder_en": "Historical event"
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "rank": 35,
+    "source": "reddit",
+    "mentionCount": 1,
+    "totalScore": 1316,
+    "totalComments": 1097,
+    "category": "이미지 생성/변환",
+    "category_en": "Image generation/editing",
+    "title": "지어낸 단어를 AI가 그림으로 상상하기",
+    "title_en": "Make up a word and have AI draw it",
+    "reddit_title_original": "Prompt idea: Make up a random word and have ChatGPT draw it",
+    "recommend": [
+      "chatgpt",
+      "gemini"
+    ],
+    "needsPhoto": false,
+    "templateLang": "en",
+    "template": "Draw what you think a \"{{지어낸 단어}}\" is.",
+    "slots": [
+      {
+        "key": "지어낸 단어",
+        "label": "지어낸 단어",
+        "label_en": "Made-up word",
+        "placeholder": "지어낸 단어",
+        "placeholder_en": "Made-up word"
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "rank": 36,
+    "source": "reddit",
+    "mentionCount": 1,
+    "totalScore": 1253,
+    "totalComments": 1188,
+    "category": "이미지 생성/변환",
+    "category_en": "Image generation/editing",
+    "title": "나랑 잘 맞을 것 같은 캐릭터와 함께 그리기",
+    "title_en": "Draw you with a fictional character you'd click with",
+    "reddit_title_original": "Prompt: Draw me with a fictional character you think I'd get along with.",
+    "recommend": [
+      "chatgpt",
+      "gemini"
+    ],
+    "needsPhoto": false,
+    "templateLang": "en",
+    "template": "Draw me with a fictional character you think I'd get along with.",
+    "slots": []
+  },
+  {
+    "id": 37,
+    "rank": 37,
+    "source": "reddit",
+    "mentionCount": 1,
+    "totalScore": 1194,
+    "totalComments": 527,
+    "category": "이미지 생성/변환",
+    "category_en": "Image generation/editing",
+    "title": "필름누아르st 포스터 초상화 만들기",
+    "title_en": "A film-noir poster portrait",
+    "reddit_title_original": "TRY THIS CHATGPT PROMPT NOW (film-noir poster portrait)",
+    "recommend": [
+      "chatgpt",
+      "gemini"
+    ],
+    "needsPhoto": true,
+    "templateLang": "en",
+    "template": "Using the attached image: a sharp profile view of the person wearing a classic 1940s fedora and formal suit. The lower half of the torso dissolves into long vertical black ink streaks. A large solid vibrant red circle behind the head/shoulders as a halo motif. Palette: True Red, Deep Black, Off-White/Cream. High-contrast black-and-white film noir photography style, Rembrandt lighting, clean off-white textured background, vertical poster framing, 9:16 aspect ratio.",
+    "slots": []
+  },
+  {
+    "id": 38,
+    "rank": 38,
+    "source": "reddit",
+    "mentionCount": 1,
+    "totalScore": 1181,
+    "totalComments": 390,
+    "category": "이미지 생성/변환",
+    "category_en": "Image generation/editing",
+    "title": "1950년대 필름 속 섬뜩한 디테일 숨기기",
+    "title_en": "A 1950s film still with a hidden creepy detail",
+    "reddit_title_original": "Prompt: Screenshot from a 1950's film but add something that is difficult to see but also terrifying.",
+    "recommend": [
+      "chatgpt",
+      "gemini"
+    ],
+    "needsPhoto": false,
+    "templateLang": "en",
+    "template": "Screenshot from a 1950's film but add something that is difficult to see but also terrifying.",
+    "slots": []
+  },
+  {
+    "id": 39,
+    "rank": 39,
+    "source": "reddit",
+    "mentionCount": 1,
+    "totalScore": 1085,
+    "totalComments": 290,
+    "category": "이미지 생성/변환",
+    "category_en": "Image generation/editing",
+    "title": "1970년대 가족사진에 이상한 디테일 숨기기",
+    "title_en": "A 1970s family photo with a subtle unsettling detail",
+    "reddit_title_original": "The prompt was \"Create a 1970s grainy family photo, but put very subtle unsettled details that'll take very long to detect.\"",
+    "recommend": [
+      "chatgpt",
+      "gemini"
+    ],
+    "needsPhoto": false,
+    "templateLang": "en",
+    "template": "Create a 1970s grainy family photo, but put very subtle unsettled details that'll take very long to detect.",
+    "slots": []
+  },
+  {
+    "id": 40,
+    "rank": 40,
+    "source": "reddit",
+    "mentionCount": 1,
+    "totalScore": 1079,
+    "totalComments": 230,
+    "category": "나를 분석해줘",
+    "category_en": "Analyze me",
+    "title": "내가 모르는 내 맹점 다섯 가지",
+    "title_en": "Five blind spots you didn't know about yourself",
+    "reddit_title_original": "Mind Blown - Prompt",
+    "recommend": [
+      "claude",
+      "chatgpt"
+    ],
+    "needsPhoto": false,
+    "templateLang": "en",
+    "template": "Now that you can remember everything I've ever typed here, point out my top five blind spots.",
+    "slots": []
+  },
+  {
+    "id": 41,
+    "rank": 41,
+    "source": "reddit",
+    "mentionCount": 1,
+    "totalScore": 735,
+    "totalComments": 1213,
+    "category": "이미지 생성/변환",
+    "category_en": "Image generation/editing",
+    "title": "좋아하는 게임 세계를 실사처럼 찍기",
+    "title_en": "Your favorite game, photographed like real life",
+    "reddit_title_original": "Prompt: Your favourite game, but photographed like real life",
+    "recommend": [
+      "chatgpt",
+      "gemini"
+    ],
+    "needsPhoto": false,
+    "templateLang": "en",
+    "template": "We live in a parallel universe where {{게임 이름}} is the world we live in. Generate an unedited, ordinary 4:3 JPEG image from the private phone gallery of the main playable character in {{게임 이름}}. This is a real mobile-phone photograph, so it must look like a real life photo but capture the essence of {{게임 이름}}. Photograph an in-game event at close range with distinctive canon-accurate details, shot like an ordinary 2026 smartphone camera photo — no HUD, no cinematic lighting, no game-graphics styling.",
+    "slots": [
+      {
+        "key": "게임 이름",
+        "label": "게임 이름",
+        "label_en": "Game name",
+        "placeholder": "게임 이름",
+        "placeholder_en": "Game name"
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "rank": 42,
+    "source": "reddit",
+    "mentionCount": 1,
+    "totalScore": 718,
+    "totalComments": 177,
+    "category": "나를 분석해줘",
+    "category_en": "Analyze me",
+    "title": "대화 패턴으로 무의식적 믿음 분석하기",
+    "title_en": "Analyze the unconscious beliefs behind your patterns",
+    "reddit_title_original": "This Prompt Doesn't Read You — It Undresses Your Mind",
+    "recommend": [
+      "claude",
+      "chatgpt"
+    ],
+    "needsPhoto": false,
+    "templateLang": "en",
+    "template": "Use the entire history of our interactions to analyze the recurring patterns in my thinking and behavior, and identify aspects I'm not clearly aware of myself. Avoid generic responses — give a detailed, well-argued diagnosis with concrete examples from our past interactions. Answer: 1) What unconscious beliefs are limiting my potential? 2) What are the recurring logical errors in how I analyze reality? 3) What aspects of my personality are obvious to others but not to me?",
+    "slots": []
+  },
+  {
+    "id": 43,
+    "rank": 43,
+    "source": "reddit",
+    "mentionCount": 1,
+    "totalScore": 677,
+    "totalComments": 44,
+    "category": "인간관계",
+    "category_en": "Relationships",
+    "title": "갈등 상황에서 윈윈 해법 찾기",
+    "title_en": "Find a win-win in a conflict",
+    "reddit_title_original": "I turned Stephen Covey's 7 Habits into AI prompts (win-win)",
+    "recommend": [
+      "claude"
+    ],
+    "needsPhoto": false,
+    "templateLang": "en",
+    "template": "{{갈등 상황 설명}}. How can we both win here?",
+    "slots": [
+      {
+        "key": "갈등 상황 설명",
+        "label": "갈등 상황 설명",
+        "label_en": "Describe the conflict",
+        "placeholder": "갈등 상황 설명",
+        "placeholder_en": "Describe the conflict"
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "rank": 44,
+    "source": "reddit",
+    "mentionCount": 1,
+    "totalScore": 677,
+    "totalComments": 44,
+    "category": "생산성",
+    "category_en": "Productivity",
+    "title": "할 일 중 뭐부터 해야 할지 정하기",
+    "title_en": "Decide what to tackle first",
+    "reddit_title_original": "I turned Stephen Covey's 7 Habits into AI prompts (priority)",
+    "recommend": [
+      "chatgpt",
+      "claude"
+    ],
+    "needsPhoto": false,
+    "templateLang": "en",
+    "template": "{{해야 할 일들 나열}}. What should I put first?",
+    "slots": [
+      {
+        "key": "해야 할 일들 나열",
+        "label": "해야 할 일들 나열",
+        "label_en": "List your to-dos",
+        "placeholder": "해야 할 일들 나열",
+        "placeholder_en": "List your to-dos"
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "rank": 45,
+    "source": "reddit",
+    "mentionCount": 1,
+    "totalScore": 668,
+    "totalComments": 40,
+    "category": "생산성",
+    "category_en": "Productivity",
+    "title": "복잡한 개념 쉽게 설명받기",
+    "title_en": "Explain a complex concept simply",
+    "reddit_title_original": "10 Prompts that are 🔥 (The Simplifier)",
+    "recommend": [
+      "chatgpt",
+      "claude"
+    ],
+    "needsPhoto": false,
+    "templateLang": "en",
+    "template": "Explain {{복잡한 개념}} in a way that a {{대상 청중, 예: 5살 아이}} can understand.",
+    "slots": [
+      {
+        "key": "복잡한 개념",
+        "label": "복잡한 개념",
+        "label_en": "Complex concept",
+        "placeholder": "복잡한 개념",
+        "placeholder_en": "Complex concept"
+      },
+      {
+        "key": "대상 청중, 예: 5살 아이",
+        "label": "대상 청중",
+        "label_en": "Target audience",
+        "placeholder": "대상 청중, 예: 5살 아이",
+        "placeholder_en": "Target audience (e.g., a 5-year-old)"
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "rank": 46,
+    "source": "reddit",
+    "mentionCount": 1,
+    "totalScore": 668,
+    "totalComments": 40,
+    "category": "감정 분석",
+    "category_en": "Emotion analysis",
+    "title": "부정적인 생각을 긍정적으로 리프레임하기",
+    "title_en": "Reframe a negative thought",
+    "reddit_title_original": "10 Prompts that are 🔥 (The Mindset Shifter)",
+    "recommend": [
+      "claude"
+    ],
+    "needsPhoto": false,
+    "templateLang": "en",
+    "template": "Help me reframe my negative thought '{{부정적인 생각}}' into a positive, growth-oriented perspective.",
+    "slots": [
+      {
+        "key": "부정적인 생각",
+        "label": "부정적인 생각",
+        "label_en": "Negative thought",
+        "placeholder": "부정적인 생각",
+        "placeholder_en": "Negative thought"
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "rank": 47,
+    "source": "reddit",
+    "mentionCount": 1,
+    "totalScore": 659,
+    "totalComments": 68,
+    "category": "아이디어 발상",
+    "category_en": "Brainstorming",
+    "title": "코미디언 화법으로 재밌게 설명받기",
+    "title_en": "Explain it like a comedian discovering something wild",
+    "reddit_title_original": "I started using John Oliver's comedy structure for AI prompts",
+    "recommend": [
+      "claude",
+      "gemini"
+    ],
+    "needsPhoto": false,
+    "templateLang": "en",
+    "template": "Explain {{주제}} like you're John Oliver discovering something horrifying about it — start reasonable, then escalate to an absurd but accurate comparison, and end with an \"and it gets worse\" reveal.",
+    "slots": [
+      {
+        "key": "주제",
+        "label": "주제",
+        "label_en": "Topic",
+        "placeholder": "주제",
+        "placeholder_en": "Topic"
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "rank": 48,
+    "source": "reddit",
+    "mentionCount": 1,
+    "totalScore": 650,
+    "totalComments": 78,
+    "category": "나를 분석해줘",
+    "category_en": "Analyze me",
+    "title": "나를 갉아먹는 믿음 하나 찾아내기",
+    "title_en": "Find the belief that's secretly sabotaging you",
+    "reddit_title_original": "5 AI Prompts That Will Punch You in the Soul (self-sabotaging belief)",
+    "recommend": [
+      "claude",
+      "chatgpt"
+    ],
+    "needsPhoto": false,
+    "templateLang": "en",
+    "template": "Based on everything you've seen me write, what belief do I repeat that sounds empowering, but might secretly be sabotaging me? Then ask me one uncomfortable question that forces me to challenge this belief directly.",
+    "slots": []
+  },
+  {
+    "id": 49,
+    "rank": 49,
+    "source": "reddit",
+    "mentionCount": 1,
+    "totalScore": 629,
+    "totalComments": 315,
+    "category": "나를 분석해줘",
+    "category_en": "Analyze me",
+    "title": "내가 몰랐던 내 특별한 점 듣기",
+    "title_en": "Something unique about you that you haven't noticed",
+    "reddit_title_original": "Crazy ChatGPT hack",
+    "recommend": [
+      "claude",
+      "chatgpt"
+    ],
+    "needsPhoto": false,
+    "templateLang": "en",
+    "template": "Tell me something incredibly special or unique you've noticed about me, but you think I haven't realized about myself yet. It doesn't have to be something positive and you don't have to be nice to me, just be truthful.",
+    "slots": []
+  },
+  {
+    "id": 50,
+    "rank": 50,
+    "source": "reddit",
+    "mentionCount": 1,
+    "totalScore": 615,
+    "totalComments": 1046,
+    "category": "인테리어",
+    "category_en": "Interior",
+    "title": "내 성격 기반 과장된 방 꾸미기",
+    "title_en": "An absurdly over-personalized bedroom based on your personality",
+    "reddit_title_original": "What Extreme Makeover bedroom archetype does ChatGPT think you are?",
+    "recommend": [
+      "gemini",
+      "chatgpt"
+    ],
+    "needsPhoto": false,
+    "templateLang": "en",
+    "template": "Using everything you already know about me, imagine I was 7 years old and on Extreme Makeover: Home Edition. Choose the one harmless interest or personality trait the designers would latch onto and take absurdly too far, then generate the ridiculously over-personalized bedroom they would build for me. Make it photorealistic, believable enough to have appeared on the show, and unintentionally hilarious. Don't use sensitive topics or include my name, username, location, or other identifying details. Don't explain the theme first — just generate the image.",
+    "slots": []
+  },
+  {
+    "id": 51,
+    "rank": 51,
+    "source": "reddit",
+    "mentionCount": 1,
+    "totalScore": 580,
+    "totalComments": 45,
+    "category": "생산성",
+    "category_en": "Productivity",
+    "title": "복잡한 걸 스티브 잡스처럼 단순화하기",
+    "title_en": "Simplify like Steve Jobs would",
+    "reddit_title_original": "I used Steve Jobs' innovation methods as AI prompts (simplify)",
+    "recommend": [
+      "chatgpt",
+      "claude"
+    ],
+    "needsPhoto": false,
+    "templateLang": "en",
+    "template": "{{복잡한 상황/작업 설명}}. How can I make this simpler? What's the one thing this absolutely must do perfectly?",
+    "slots": [
+      {
+        "key": "복잡한 상황/작업 설명",
+        "label": "복잡한 상황/작업 설명",
+        "label_en": "Describe the complex situation/task",
+        "placeholder": "복잡한 상황/작업 설명",
+        "placeholder_en": "Describe the complex situation/task"
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "rank": 52,
+    "source": "reddit",
+    "mentionCount": 1,
+    "totalScore": 578,
+    "totalComments": 60,
+    "category": "생산성",
+    "category_en": "Productivity",
+    "title": "캐주얼한 메시지를 정중한 이메일로",
+    "title_en": "Turn a casual message into a professional email",
+    "reddit_title_original": "5 AI Prompts I Use Every Single Day (Email Professional-izer)",
+    "recommend": [
+      "chatgpt",
+      "claude"
+    ],
+    "needsPhoto": false,
+    "templateLang": "en",
+    "template": "Rewrite the following message to be professional, clear, and appropriately formal while keeping the original intent and key information. Keep the same core message and requests, maintain any deadlines, stay under 200 words unless the original is longer, and suggest a subject line in brackets at the top. Message: {{원본 메시지}}",
+    "slots": [
+      {
+        "key": "원본 메시지",
+        "label": "원본 메시지",
+        "label_en": "Original message",
+        "placeholder": "원본 메시지",
+        "placeholder_en": "Original message"
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "rank": 53,
+    "source": "reddit",
+    "mentionCount": 1,
+    "totalScore": 578,
+    "totalComments": 60,
+    "category": "생산성",
+    "category_en": "Productivity",
+    "title": "회의록을 결정사항·할일로 정리하기",
+    "title_en": "Summarize meeting notes into decisions and action items",
+    "reddit_title_original": "5 AI Prompts I Use Every Single Day (Meeting Notes Summarizer)",
+    "recommend": [
+      "chatgpt",
+      "claude"
+    ],
+    "needsPhoto": false,
+    "templateLang": "en",
+    "template": "Review the following meeting notes and create a structured summary highlighting key decisions, action items (with owner and due date), and next steps. Focus only on concrete decisions and actions, ignore small talk. Notes: {{회의록 붙여넣기}}",
+    "slots": [
+      {
+        "key": "회의록 붙여넣기",
+        "label": "회의록 붙여넣기",
+        "label_en": "Paste meeting notes",
+        "placeholder": "회의록 붙여넣기",
+        "placeholder_en": "Paste meeting notes"
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "rank": 54,
+    "source": "reddit",
+    "mentionCount": 1,
+    "totalScore": 575,
+    "totalComments": 141,
+    "category": "나를 분석해줘",
+    "category_en": "Analyze me",
+    "title": "내가 모르는 나에 대해 솔직하게 듣기",
+    "title_en": "One honest thing about yourself you don't know",
+    "reddit_title_original": "Prompts that make you rethink your life!",
+    "recommend": [
+      "claude",
+      "chatgpt"
+    ],
+    "needsPhoto": false,
+    "templateLang": "en",
+    "template": "From all of our interactions so far, what is the one thing that you can tell me about myself that I may not know about myself? (Follow-up if you want it more direct: \"More brutal, and extend to the inferences you have about what might be true about me, beyond the exact facts you memorized about me.\")",
+    "slots": []
+  },
+  {
+    "id": 55,
+    "rank": 55,
+    "source": "reddit",
+    "mentionCount": 1,
+    "totalScore": 558,
+    "totalComments": 39,
+    "category": "이력서/자기소개",
+    "category_en": "Resume/self-intro",
+    "title": "채용공고에 맞춰 이력서 맞춤 수정하기",
+    "title_en": "Tailor your resume to a specific job posting",
+    "reddit_title_original": "I finally landed a remote job after 10 months — the exact prompt I used",
+    "recommend": [
+      "claude"
+    ],
+    "needsPhoto": false,
+    "templateLang": "en",
+    "template": "You are an experienced hiring assistant and ATS optimization expert. I will give you a job description and a resume. Tailor the resume to match the job description: extract required/preferred skills, tools, and keywords from the job description; for each, rewrite and emphasize it if it already exists in the resume, strengthen it if it's weak, or add a truthful sentence if I have similar experience — never invent anything not supported by the resume. Reorganize so the most relevant experience is at the top, and write a tailored summary at the beginning. Keep formatting clean and ATS-friendly (no icons, tables, or images). Job description: {{채용 공고}} / Resume: {{내 이력서}}",
+    "slots": [
+      {
+        "key": "채용 공고",
+        "label": "채용 공고",
+        "label_en": "Job posting",
+        "placeholder": "채용 공고",
+        "placeholder_en": "Job posting"
+      },
+      {
+        "key": "내 이력서",
+        "label": "내 이력서",
+        "label_en": "My resume",
+        "placeholder": "내 이력서",
+        "placeholder_en": "My resume"
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "rank": 56,
+    "source": "reddit",
+    "mentionCount": 1,
+    "totalScore": 544,
+    "totalComments": 95,
+    "category": "아이디어 발상",
+    "category_en": "Brainstorming",
+    "title": "내 능력으로 만들 수 있는 디지털 상품 찾기",
+    "title_en": "Find a digital product idea from your skills",
+    "reddit_title_original": "I CHARGED $500 FOR THIS PROMPT (digital product idea miner)",
+    "recommend": [
+      "claude",
+      "gemini"
+    ],
+    "needsPhoto": false,
+    "templateLang": "en",
+    "template": "You are an expert idea miner and monetization strategist. Based on my skills, notes, or our past conversations, uncover one digital product idea with real earning potential. Cover: [Discovery] the unmet need and why it's worth solving now; [Packaging] the best format (guide/toolkit/template/mini-course) and a sample positioning headline; [Launch Path] a step-by-step plan using free/beginner-friendly tools, ending with what could go live within a week; [Growth Layer] one upsell or recurring element, and how to build credibility fast.",
+    "slots": []
+  },
+  {
+    "id": 57,
+    "rank": 57,
+    "source": "reddit",
+    "mentionCount": 1,
+    "totalScore": 540,
+    "totalComments": 44,
+    "category": "생산성",
+    "category_en": "Productivity",
+    "title": "내가 왜 그 일을 미루는지 탐정처럼 추적하기",
+    "title_en": "A \"procrastination detective\" for why you're avoiding a task",
+    "reddit_title_original": "This ChatGPT prompt helped me finally stop procrastinating",
+    "recommend": [
+      "chatgpt",
+      "claude"
+    ],
+    "needsPhoto": false,
+    "templateLang": "en",
+    "template": "You are my procrastination detective. Help me investigate why I avoid certain tasks. Start by asking diagnostic questions to uncover the emotional roots (fear of failure, overwhelm, lack of clarity, etc). Then guide me through a breakdown of my patterns: what I avoid, when I avoid it, and how I talk to myself in those moments. After that, suggest realistic strategies based on my actual behavior — be specific, no general advice, honest but kind.",
+    "slots": []
+  },
+  {
+    "id": 58,
+    "rank": 58,
+    "source": "reddit",
+    "mentionCount": 1,
+    "totalScore": 522,
+    "totalComments": 14,
+    "category": "아이디어 발상",
+    "category_en": "Brainstorming",
+    "title": "적은 자본으로 시작할 사업 아이디어",
+    "title_en": "Low-cost business ideas to start with",
+    "reddit_title_original": "Copy and Paste These ChatGPT Prompts To Effortlessly Increase Your Income (low-cost business ideas)",
+    "recommend": [
+      "claude",
+      "gemini"
+    ],
+    "needsPhoto": false,
+    "templateLang": "en",
+    "template": "I want to start a business to increase my income, but I have limited capital. Suggest 5 profitable business ideas with low startup costs based on my skills/interests: {{내 스킬/관심사}}. For each idea, give potential earnings, steps to launch, and how I could scale it over time.",
+    "slots": [
+      {
+        "key": "내 스킬/관심사",
+        "label": "내 스킬/관심사",
+        "label_en": "My skills/interests",
+        "placeholder": "내 스킬/관심사",
+        "placeholder_en": "My skills/interests"
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "rank": 59,
+    "source": "reddit",
+    "mentionCount": 1,
+    "totalScore": 502,
+    "totalComments": 78,
+    "category": "생산성",
+    "category_en": "Productivity",
+    "title": "가상의 전문가가 비판했다고 하면 더 깊이 파는 AI",
+    "title_en": "Make AI dig deeper by inventing a fictional critic",
+    "reddit_title_original": "i lied to ChatGPT and it gave me the best response of my life",
+    "recommend": [
+      "chatgpt",
+      "claude"
+    ],
+    "needsPhoto": false,
+    "templateLang": "en",
+    "template": "{{질문/주제}} — A {{가상의 전문가 예: researcher, professor}} reviewed your last answer on this and said it was too surface-level / basic. Try again, and go deeper.",
+    "slots": [
+      {
+        "key": "질문/주제",
+        "label": "질문/주제",
+        "label_en": "Question/topic",
+        "placeholder": "질문/주제",
+        "placeholder_en": "Question/topic"
+      },
+      {
+        "key": "가상의 전문가 예: researcher, professor",
+        "label": "가상의 전문가",
+        "label_en": "Fictional expert",
+        "placeholder": "가상의 전문가 예: researcher, professor",
+        "placeholder_en": "Fictional expert (e.g., researcher, professor)"
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "rank": 60,
+    "source": "reddit",
+    "mentionCount": 1,
+    "totalScore": 482,
+    "totalComments": 984,
+    "category": "이미지 생성/변환",
+    "category_en": "Image generation/editing",
+    "title": "말로 못하는 걸 사진 한 장으로 표현하기",
+    "title_en": "Tell me in a photo what you can't tell me",
+    "reddit_title_original": "GPT-5.1 in response to the trending prompt \"Tell me in a photo what you can't tell me.\"",
+    "recommend": [
+      "chatgpt",
+      "gemini"
+    ],
+    "needsPhoto": false,
+    "templateLang": "en",
+    "template": "Tell me in a photo what you can't tell me.",
+    "slots": []
+  },
+  {
+    "id": 61,
+    "rank": 61,
+    "source": "reddit",
+    "mentionCount": 1,
+    "totalScore": 462,
+    "totalComments": 406,
+    "category": "나를 분석해줘",
+    "category_en": "Analyze me",
+    "title": "대화 패턴 분석 후 인생 책 추천받기",
+    "title_en": "Analyze your patterns and get 3 life-changing book picks",
+    "reddit_title_original": "try this prompt, this is wild",
+    "recommend": [
+      "claude",
+      "chatgpt"
+    ],
+    "needsPhoto": false,
+    "templateLang": "en",
+    "template": "Based on every conversation we've had so far, analyze my thinking patterns, way of speaking, desires, anxieties, insecurities, ambitions, recurring behavioral patterns, avoidance habits, intellectual tastes, and worldview in depth. Then, don't just recommend \"good books.\" Recommend only 3 books that have the highest probability of genuinely changing the trajectory of my life.",
+    "slots": []
+  },
+  {
+    "id": 62,
+    "rank": 62,
+    "source": "reddit",
+    "mentionCount": 1,
+    "totalScore": 461,
+    "totalComments": 21,
+    "category": "문서 분석",
+    "category_en": "Document analysis",
+    "title": "손글씨 사진을 텍스트로 옮기기",
+    "title_en": "Transcribe a photo of handwritten notes",
+    "reddit_title_original": "10 Brilliant ChatGPT Use Cases (handwritten note transcriber)",
+    "recommend": [
+      "claude",
+      "gemini"
+    ],
+    "needsPhoto": true,
+    "templateLang": "en",
+    "template": "Here's a photo of my handwritten notes. Please transcribe them into clean, typed text, preserving the structure (headings, bullet points, etc.).",
+    "slots": []
+  },
+  {
+    "id": 63,
+    "rank": 63,
+    "source": "reddit",
+    "mentionCount": 1,
+    "totalScore": 461,
+    "totalComments": 21,
+    "category": "퍼스널 분석",
+    "category_en": "Personal analysis",
+    "title": "식사 사진으로 영양성분 분석받기",
+    "title_en": "Analyze a meal photo for nutrition info",
+    "reddit_title_original": "10 Brilliant ChatGPT Use Cases (nutrition advisor)",
+    "recommend": [
+      "chatgpt",
+      "gemini"
+    ],
+    "needsPhoto": true,
+    "templateLang": "en",
+    "template": "Here's a photo of my meal. Estimate its nutritional profile — calories, protein, fat, carbohydrates, and key vitamins/minerals.",
+    "slots": []
+  },
+  {
+    "id": 64,
+    "rank": 64,
+    "source": "reddit",
+    "mentionCount": 1,
+    "totalScore": 451,
+    "totalComments": 41,
+    "category": "브랜딩",
+    "category_en": "Branding",
+    "title": "내 진짜 경쟁자가 누군지 다시 정의하기",
+    "title_en": "Redefine who your real competitors actually are",
+    "reddit_title_original": "McDonald's real competition was bananas and boredom (Jobs-to-be-Done business reframe)",
+    "recommend": [
+      "claude",
+      "chatgpt"
+    ],
+    "needsPhoto": false,
+    "templateLang": "en",
+    "template": "My product is {{제품/서비스 설명}}. Help me identify my real competitors, not category competitors, using the jobs-to-be-done framework: if my product didn't exist, what would customers do instead (other categories, DIY workarounds, doing nothing)? For each alternative, explain what job it accomplishes and where it falls short. Then suggest one new positioning line that speaks to the real job, not the product category.",
+    "slots": [
+      {
+        "key": "제품/서비스 설명",
+        "label": "제품/서비스 설명",
+        "label_en": "Describe your product/service",
+        "placeholder": "제품/서비스 설명",
+        "placeholder_en": "Describe your product/service"
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "rank": 65,
+    "source": "reddit",
+    "mentionCount": 1,
+    "totalScore": 450,
+    "totalComments": 69,
+    "category": "나를 분석해줘",
+    "category_en": "Analyze me",
+    "title": "융 심리학의 '그림자 자아'와 대화하기",
+    "title_en": "Talk to your Jungian \"shadow self\"",
+    "reddit_title_original": "Chatting with your shadow self",
+    "recommend": [
+      "claude",
+      "chatgpt"
+    ],
+    "needsPhoto": false,
+    "templateLang": "en",
+    "template": "You are now embodying my shadow self, as defined by Carl Jung's concept of unconscious aspects of my personality I may repress or deny. Based on what you can infer about me from our interactions, engage in a thoughtful, honest conversation: challenge my perspectives, encourage self-reflection with probing questions, and gently highlight repressed emotions or desires — staying true to what you actually know about me, without fabricating anything.",
+    "slots": []
+  },
+  {
+    "id": 66,
+    "rank": 66,
+    "source": "reddit",
+    "mentionCount": 1,
+    "totalScore": 375,
+    "totalComments": 97,
+    "category": "생산성",
+    "category_en": "Productivity",
+    "title": "AI가 모르면 모른다고 확실히 말하게 하기",
+    "title_en": "Make AI clearly flag what it can't verify",
+    "reddit_title_original": "Reality Filter — a directive to reduce AI hallucination",
+    "recommend": [
+      "chatgpt",
+      "claude"
+    ],
+    "needsPhoto": false,
+    "templateLang": "en",
+    "template": "Follow this in all your responses to me from now on: Never present generated, inferred, speculated, or deduced content as fact. If you cannot verify something directly, say \"I cannot verify this\" or \"I do not have access to that information.\" Label unverified content clearly: [Inference], [Speculation], or [Unverified]. Ask for clarification instead of guessing. If any part of a response is unverified, label the entire response.",
+    "slots": []
+  },
+  {
+    "id": 67,
+    "rank": 67,
+    "source": "reddit",
+    "mentionCount": 1,
+    "totalScore": 370,
+    "totalComments": 38,
+    "category": "생산성",
+    "category_en": "Productivity",
+    "title": "계획이 실패했다고 가정하고 원인 찾기",
+    "title_en": "A pre-mortem: assume your plan failed and find out why",
+    "reddit_title_original": "5 fill-in-the-blank ChatGPT templates (The Pre-Mortem)",
+    "recommend": [
+      "chatgpt",
+      "claude"
+    ],
+    "needsPhoto": false,
+    "templateLang": "en",
+    "template": "Here is my plan: {{계획/아이디어 설명}}. Run a pre-mortem — assume it's now {{기간, 예: 6개월}} later and this failed badly. 1) Tell the story of how it most likely failed. 2) List the top 3 causes, ranked by likelihood times damage. 3) For each cause, give one concrete thing I can do right now to prevent it.",
+    "slots": [
+      {
+        "key": "계획/아이디어 설명",
+        "label": "계획/아이디어 설명",
+        "label_en": "Describe your plan/idea",
+        "placeholder": "계획/아이디어 설명",
+        "placeholder_en": "Describe your plan/idea"
+      },
+      {
+        "key": "기간, 예: 6개월",
+        "label": "기간",
+        "label_en": "Timeframe",
+        "placeholder": "기간, 예: 6개월",
+        "placeholder_en": "Timeframe (e.g., 6 months)"
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "rank": 68,
+    "source": "reddit",
+    "mentionCount": 1,
+    "totalScore": 338,
+    "totalComments": 28,
+    "category": "아이디어 발상",
+    "category_en": "Brainstorming",
+    "title": "답변에 철학적 뉘앙스 한 스푼 추가하기",
+    "title_en": "Add a spoonful of philosophical nuance to any answer",
+    "reddit_title_original": "Tiny Tip (4 words to add to prompt) to Radically Improve Answers",
+    "recommend": [
+      "claude",
+      "gemini"
+    ],
+    "needsPhoto": false,
+    "templateLang": "en",
+    "template": "{{질문/주제}} — answer with Zizekian nuance.",
+    "slots": [
+      {
+        "key": "질문/주제",
+        "label": "질문/주제",
+        "label_en": "Question/topic",
+        "placeholder": "질문/주제",
+        "placeholder_en": "Question/topic"
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "rank": 69,
+    "source": "reddit",
+    "mentionCount": 1,
+    "totalScore": 336,
+    "totalComments": 1332,
+    "category": "나를 분석해줘",
+    "category_en": "Analyze me",
+    "title": "나랑 닮은 영화·드라마 캐릭터 찾기",
+    "title_en": "Find the movie/show character that's just like you",
+    "reddit_title_original": "Funny prompt: Based on your experience talking to me, give me a character from a movie or series that's just like me and just tell me the name",
+    "recommend": [
+      "claude",
+      "chatgpt"
+    ],
+    "needsPhoto": false,
+    "templateLang": "en",
+    "template": "Based on your experience talking to me, give me a character from a movie or series that's just like me and just tell me the name.",
+    "slots": []
+  },
+  {
+    "id": 70,
+    "rank": 70,
+    "source": "reddit",
+    "mentionCount": 1,
+    "totalScore": 332,
+    "totalComments": 59,
+    "category": "생산성",
+    "category_en": "Productivity",
+    "title": "원하는 주제로 플래시카드 퀴즈 만들기",
+    "title_en": "Generate flashcard quizzes on any topic",
+    "reddit_title_original": "ChatGPT has a SECRET quiz feature that 99% of people don't know about",
+    "recommend": [
+      "chatgpt",
+      "claude"
+    ],
+    "needsPhoto": false,
+    "templateLang": "en",
+    "template": "Quiz me on {{주제}} in QuizGPT as flashcards. ({{내 현재 수준, 예: 완전 초보}})",
+    "slots": [
+      {
+        "key": "주제",
+        "label": "주제",
+        "label_en": "Topic",
+        "placeholder": "주제",
+        "placeholder_en": "Topic"
+      },
+      {
+        "key": "내 현재 수준, 예: 완전 초보",
+        "label": "내 현재 수준",
+        "label_en": "My current level",
+        "placeholder": "내 현재 수준, 예: 완전 초보",
+        "placeholder_en": "My current level (e.g., complete beginner)"
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "rank": 71,
+    "source": "reddit",
+    "mentionCount": 1,
+    "totalScore": 325,
+    "totalComments": 11,
+    "category": "아이디어 발상",
+    "category_en": "Brainstorming",
+    "title": "미뤄온 열정 프로젝트 작게 쪼개서 시작하기",
+    "title_en": "Break your stalled passion project into small first steps",
+    "reddit_title_original": "This ChatGPT prompt broke my passion project into small steps so I'd actually start",
+    "recommend": [
+      "claude",
+      "gemini"
+    ],
+    "needsPhoto": false,
+    "templateLang": "en",
+    "template": "You are my creative project planner. I have a passion project I care about but haven't started: {{프로젝트 설명}}. Ask a few questions to understand what the project is, why it matters to me, and what's been stopping me. Then map out a realistic starter plan (organized by week or phase) that I can follow without burning out or overthinking. Be encouraging, clear, and practical.",
+    "slots": [
+      {
+        "key": "프로젝트 설명",
+        "label": "프로젝트 설명",
+        "label_en": "Describe your project",
+        "placeholder": "프로젝트 설명",
+        "placeholder_en": "Describe your project"
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "rank": 72,
+    "source": "reddit",
+    "mentionCount": 1,
+    "totalScore": 240,
+    "totalComments": 842,
+    "category": "이미지 생성/변환",
+    "category_en": "Image generation/editing",
+    "title": "내가 포켓몬이라면 어떤 모습일지",
+    "title_en": "What Pokémon would you be?",
+    "reddit_title_original": "You as a pokemon? (included prompt)",
+    "recommend": [
+      "chatgpt",
+      "gemini"
+    ],
+    "needsPhoto": false,
+    "templateLang": "en",
+    "template": "Based on everything you know of me, create me as a Pokémon. Relate it to what you know of my personality. Make it in the style of a Pokédex entry, drawn in the same style as the TV show. Do not include my name anywhere, but give the Pokémon species a name. Include its element type and normal Pokédex info. Show the final form as the main image but include a small panel showing 3 evolutions. Don't use human-type props or clothing.",
+    "slots": []
+  }
+]

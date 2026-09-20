@@ -118,7 +118,9 @@ export default function DetailScreen({ prompt, onBack }: { prompt: Prompt; onBac
 
       {meta?.deeplink && (
         <div className="flow-box active">
-          <div className="section-title">{t.dlTitle(meta.label)}</div>
+          <div className="section-title">
+            {prompt.slots.length > 0 ? t.dlTitle(meta.label) : t.dlTitleFixed(meta.label)}
+          </div>
           {prompt.slots.map((s) => (
             <div className="slot-input" key={s.key}>
               <label>{lang === "en" ? s.label_en : s.label}</label>
@@ -131,6 +133,7 @@ export default function DetailScreen({ prompt, onBack }: { prompt: Prompt; onBac
             </div>
           ))}
           {prompt.needsPhoto && <div className="photo-notice">{t.photoNotice}</div>}
+          {prompt.needsHistory && <div className="photo-notice">{t.historyNotice}</div>}
           {translationToggle}
           <div className="preview-box">{previewText}</div>
           <div className="action-row">
@@ -146,7 +149,9 @@ export default function DetailScreen({ prompt, onBack }: { prompt: Prompt; onBac
 
       {meta && !meta.deeplink && (
         <div className="flow-box active">
-          <div className="section-title">{t.cpTitle(meta.label)}</div>
+          <div className="section-title">
+            {prompt.slots.length > 0 ? t.cpTitle(meta.label) : t.cpTitleFixed(meta.label)}
+          </div>
           {prompt.slots.map((s) => (
             <div className="slot-input" key={s.key}>
               <label>{lang === "en" ? s.label_en : s.label}</label>
@@ -159,6 +164,7 @@ export default function DetailScreen({ prompt, onBack }: { prompt: Prompt; onBac
             </div>
           ))}
           {prompt.needsPhoto && <div className="photo-notice">{t.photoNotice}</div>}
+          {prompt.needsHistory && <div className="photo-notice">{t.historyNotice}</div>}
           {translationToggle}
           <div className="preview-box">{previewText}</div>
           <div className="action-row">

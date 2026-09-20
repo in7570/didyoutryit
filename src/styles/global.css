@@ -177,7 +177,7 @@ header {
 .sort-caption {
   font-size: 12px;
   color: var(--text-mute);
-  margin-bottom: 20px;
+  margin-bottom: 14px;
   margin-top: -2px;
   display: flex;
   align-items: center;
@@ -185,24 +185,31 @@ header {
   opacity: 1;
   transition: opacity 0.15s ease;
 }
-.sort-caption .src {
+.filter-toggle-row {
+  margin-bottom: 14px;
+}
+.filter-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-bottom: 14px;
+  animation: fadeIn 0.25s ease;
+}
+.filter-group-label {
   font-family: "NeoDunggeunmo", monospace;
-  font-size: 10px;
+  font-size: 11px;
   color: var(--text-mute);
-  border: 1px solid var(--border);
-  padding: 1px 7px;
-  border-radius: 10px;
+  margin-bottom: 6px;
+  letter-spacing: 0.5px;
 }
 .category-row {
   display: flex;
   gap: 6px;
   flex-wrap: wrap;
-  margin-bottom: 14px;
   padding: 12px;
   background: var(--card);
   border: 1px solid var(--border);
   border-radius: 14px;
-  animation: fadeIn 0.25s ease;
 }
 .cat-pill {
   font-family: "NeoDunggeunmo", monospace;

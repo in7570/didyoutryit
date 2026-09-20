@@ -4,17 +4,24 @@ export interface I18nShape {
   updateNotice: string;
   brand: string;
   tabs: Record<SortKey, string>;
-  catToggle: string;
+  filterToggle: string;
+  categoryLabel: string;
   allCategory: string;
+  sourceLabel: string;
+  allSource: string;
+  sourceReddit: string;
+  sourceKorea: string;
   sortCaptions: Record<SortKey, string>;
-  sourceTag: string;
   heroToday: string;
   back: string;
   modelQuestion: string;
   recommended: string;
   dlTitle: (label: string) => string;
   cpTitle: (label: string) => string;
+  dlTitleFixed: (label: string) => string;
+  cpTitleFixed: (label: string) => string;
   photoNotice: string;
+  historyNotice: string;
   deeplinkBtn: string;
   copyBtn: string;
   openAppBtn: string;
@@ -43,23 +50,31 @@ export const I18N: Record<Lang, I18nShape> = {
       popular: '인기순',
       likes: '좋아요순',
     },
-    catToggle: '카테고리별 보기',
+    filterToggle: '필터',
+    categoryLabel: '카테고리',
     allCategory: '전체',
+    sourceLabel: '출처',
+    allSource: '전체',
+    sourceReddit: 'Reddit',
+    sourceKorea: '한국 커뮤니티',
     sortCaptions: {
       hot: '오늘 커뮤니티에서 인기가 많은 프롬프트들이에요!',
       new: '커뮤니티에 방금 올라온 따끈따끈한 프롬프트들이에요!',
       popular: '댓글·공유까지 종합해서 화제가 된 프롬프트들이에요!',
       likes: '커뮤니티에서 좋아요(추천)를 가장 많이 받은 프롬프트들이에요!',
     },
-    sourceTag: '출처: Reddit',
     heroToday: '오늘의 HOT',
     back: '← 목록',
     modelQuestion: '이 프롬프트, 어떤 AI로 써볼까요?',
     recommended: '✓ 추천',
     dlTitle: (label) => `${label}로 바로 열기 위해 입력해주세요`,
     cpTitle: (label) => `${label}용으로 프롬프트를 다듬어보세요`,
+    dlTitleFixed: (label) => `${label}로 바로 열어보세요`,
+    cpTitleFixed: (label) => `${label}용 프롬프트, 그대로 복사해보세요`,
     photoNotice:
       '📷 사진이 필요한 프롬프트예요. 이동 후 직접 사진을 첨부해주세요.',
+    historyNotice:
+      '💬 이 AI와 나눈 대화가 많을수록 결과가 좋아요. 새 채팅이라 기록이 없다면, 지금까지의 대화를 캡처해서 사진으로 첨부해보세요.',
     deeplinkBtn: '➜ 딥링크로 바로 열기',
     copyBtn: '복사하기',
     openAppBtn: '앱/웹으로 이동',
@@ -90,23 +105,31 @@ export const I18N: Record<Lang, I18nShape> = {
       popular: 'Popular',
       likes: 'Most Liked',
     },
-    catToggle: 'By Category',
+    filterToggle: 'Filters',
+    categoryLabel: 'Category',
     allCategory: 'All',
+    sourceLabel: 'Source',
+    allSource: 'All',
+    sourceReddit: 'Reddit',
+    sourceKorea: 'Korean community',
     sortCaptions: {
       hot: 'Prompts trending in the community today!',
       new: 'Fresh prompts just posted in the community!',
       popular: 'Prompts buzzing based on comments and shares!',
       likes: 'Prompts with the most likes (upvotes) in the community!',
     },
-    sourceTag: 'Source: Reddit',
     heroToday: "Today's HOT",
     back: '← Back',
     modelQuestion: 'Which AI do you want to try this with?',
     recommended: '✓ Recommended',
     dlTitle: (label) => `Fill in details to open directly in ${label}`,
     cpTitle: (label) => `Tweak this prompt for ${label}`,
+    dlTitleFixed: (label) => `Just open directly in ${label}`,
+    cpTitleFixed: (label) => `Copy this prompt as-is for ${label}`,
     photoNotice:
       '📷 This prompt needs a photo. Please attach it yourself after you get there.',
+    historyNotice:
+      "💬 This works best in a chat where you've already talked a lot. If it's a fresh chat, try attaching a screenshot of your past conversation instead.",
     deeplinkBtn: '➜ Open directly',
     copyBtn: 'Copy',
     openAppBtn: 'Open app/web',
